@@ -1,6 +1,6 @@
 import sys
 if len(sys.argv)!=3:
-    print("usage python app.py<number1> <number2>")
+    print("Usage: python app.py <number1> <number2>")
     sys.exit(1)
 
 num1=float(sys.argv[1])
