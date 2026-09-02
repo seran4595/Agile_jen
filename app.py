@@ -5,7 +5,12 @@ if len(sys.argv)!=3:
 
     num1=float(sys.argv[1])
     num2=float(sys.argv[2])
-    result=num1+num2
     print("number 1: ",num1)
     print("number 2: ",num2)
-    print("sum: ",result)
+    print("ADD: ",num1+num2)
+    print("SUB: ",num1-num2)
+    print("MUL: ",num1*num2)
+    if num2!=0:
+        print("Division",num1/num2)
+    else:
+        print("Division:cannot divide by zero")
